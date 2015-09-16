@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <title>ROP跨域测试</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery-1.11.3.min.js"></script>
     <script src="jquery.encoding.js"></script>
     <script type="text/javascript">
     $(function(){
@@ -39,6 +39,7 @@
                 v:"1.0"
             };
             signBySha1(data);
+
             $.ajax({
                 type: "get",
                 async: false,
@@ -84,7 +85,6 @@
           data["sign"]=signData;
           return data;
         }
-
     })
     </script>
     <style type="text/css">
