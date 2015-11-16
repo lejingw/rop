@@ -155,22 +155,3 @@ upload-file-max-size和upload-file-types属性。
 4.可通过RopServlet的needCheckSign Servlet参数指定是否要进行签名校验。
 5.Rop框架的配置原来使用RopServlet的初始化参数，现在改为使用一个配置文件，默认的配置文件为：/WEB-INF/<ropServlet名称>.properties,参见RopSample的实例；
 6.解决JaxbXmlRopResponseMarshallerTest一个BUG，原来有依赖JUnit,现已经移除。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

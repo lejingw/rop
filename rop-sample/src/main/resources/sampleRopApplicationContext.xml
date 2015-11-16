@@ -54,7 +54,7 @@
         <bean class="com.rop.sample.ReservedUserNameInterceptor"/>
     </rop:interceptors>
 
-    <!--注册监听器，可配置多具-->
+    <!--注册监听器，可配置多个-->
     <rop:listeners>
         <bean class="com.rop.sample.SamplePostInitializeEventListener"/>
         <bean class="com.rop.sample.SamplePreDoServiceEventListener"/>
